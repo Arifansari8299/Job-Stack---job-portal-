@@ -28,7 +28,7 @@ const jobSchema = new mongoose.Schema({
     },
     position: {
         type: Number,
-        required: true    // ✅ fixed
+        required: true  
     },
     company: {
         type: mongoose.Schema.Types.ObjectId,
