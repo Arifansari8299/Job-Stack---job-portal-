@@ -1,0 +1,17 @@
+# Node modules for both client and server
+client/node_modules/
+server/node_modules/
+
+# Logs
+*.log
+
+# OS and IDE junk
+.DS_Store
+.env
+.env.local
+.vscode/
+
+# Build folders
+client/build/
+client/dist/
+server/dist/
