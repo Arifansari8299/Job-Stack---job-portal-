@@ -3,6 +3,7 @@ import cookieParser from "cookie-parser";
 import cors from 'cors'
 import dotenv from 'dotenv';
 import connectDB from './utils/db.js';
+
 dotenv.config({})
 const app = express()
 const PORT = process.env.PORT || 3000;
@@ -17,7 +18,7 @@ const corsOptions = {
 }
 app.use(cors(corsOptions))
 
-
+// api endspoints  // routes
 app.get('/',(req,res)=>{
     res.send("basis server")
 });
